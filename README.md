@@ -2,7 +2,7 @@
 title: Smishi / Ne Nasedaj
 emoji: 🎣
 colorFrom: red
-colorTo: orange
+colorTo: yellow
 sdk: gradio
 sdk_version: 4.44.0
 app_file: app.py
@@ -142,3 +142,4 @@ Dobrodošli su novi označeni SMS primeri, granični slučajevi (bez URL-a, IBAN
 
 Utaem & Monkeydluffy
 Napravljeno tokom Build Small Hackathona, juni 2026.
+
