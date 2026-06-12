@@ -50,47 +50,54 @@ if len(df) > 0:
 else:
     tfidf_model = None
 
-# =========================
-# BERTIĆ MODEL (Model B)
-# =========================
-class SMSPhishingDetectorWrapper:
-    def __init__(self, model_id="ravi2505/ne-nasedaj-sms-phishing", device=None):
-        self.model_id = model_id
-        self.device = device or torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.tokenizer = AutoTokenizer.from_pretrained(model_id)
-        self.model = AutoModelForSequenceClassification.from_pretrained(model_id)
-        self.model.to(self.device)
-        self.model.eval()
-        self.id2label = {0: "Legitimate", 1: "Phishing"}
-    
-    def _prepare_input(self, text):
-        if text and len(text) > 4 and text[0] == '[' and text[3] == ']':
-            return text
-        return f"[sr] {text}"
-    
-    def predict(self, text):
-        processed = self._prepare_input(text)
-        inputs = self.tokenizer(processed, return_tensors="pt", truncation=True,
-                                 padding=True, max_length=512)
-        inputs = {k: v.to(self.device) for k, v in inputs.items()}
-        with torch.no_grad():
-            logits = self.model(**inputs).logits
-            probs = torch.softmax(logits, dim=1)
-        pred_id = torch.argmax(probs, dim=1).item()
-        return {
-            "label": self.id2label[pred_id],
-            "confidence": probs[0][pred_id].item(),
-            "phishing_score": probs[0][1].item(),
-        }
+# --- BERTić model integration ---
+BERTIC_MODEL_ID = "ravi2505/ne-nasedaj-sms-phishing"
+BERTIC_DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 try:
-    bertic_model = SMSPhishingDetectorWrapper()
+    bertic_tokenizer = AutoTokenizer.from_pretrained(BERTIC_MODEL_ID)
+    bertic_model = AutoModelForSequenceClassification.from_pretrained(BERTIC_MODEL_ID)
+    bertic_model.to(BERTIC_DEVICE)
+    bertic_model.eval()
     BERTIC_AVAILABLE = True
 except Exception as e:
     print(f"BERTić model unavailable: {e}")
+    bertic_tokenizer = None
     bertic_model = None
     BERTIC_AVAILABLE = False
 
+
+def predict_with_bertic(text, language="sr"):
+    """Return the BERTić phishing prediction for raw SMS text."""
+    if not BERTIC_AVAILABLE:
+        raise RuntimeError("BERTić model is not available")
+
+    prepared_text = f"[{language}] {text}"
+    inputs = bertic_tokenizer(
+        prepared_text,
+        return_tensors="pt",
+        truncation=True,
+        padding=True,
+        max_length=256,
+    )
+    inputs = {key: value.to(BERTIC_DEVICE) for key, value in inputs.items()}
+
+    with torch.no_grad():
+        logits = bertic_model(**inputs).logits
+        probs = torch.softmax(logits, dim=1)[0]
+
+    legitimate_probability = probs[0].item()
+    phishing_probability = probs[1].item()
+    label = "phishing" if phishing_probability >= legitimate_probability else "legitimate"
+    confidence = max(phishing_probability, legitimate_probability)
+
+    return {
+        "label": label,
+        "confidence": confidence,
+        "phishing_probability": phishing_probability,
+        "legitimate_probability": legitimate_probability,
+    }
+# --- BERTić model integration ---
 # =========================
 # TRANSLATION DICTIONARIES
 # =========================
@@ -492,31 +499,26 @@ def detect_sms(text, is_human, agrees_privacy, lang):
         conf_a = 50.0
     
     if BERTIC_AVAILABLE:
-        bertic_result = bertic_model.predict(f"[{lang_key}] {text}")
+        bertic_result = predict_with_bertic(text, lang_key)
         pred_b = bertic_result["label"].lower()
         conf_b = round(bertic_result["confidence"] * 100, 2)
     else:
         pred_b = conf_b = None
     
-    votes = [pred_a]
-    if pred_b is not None:
-        votes.append(pred_b)
-    
     if typosquat_domains:
         prediction = "phishing"
         confidence = 95.0
-    elif votes.count("phishing") >= 1 and len(votes) > 1 and votes.count("phishing") < len(votes):
-        prediction = "phishing"
-        confidence = round(sum(c for c in [conf_a, conf_b] if c is not None) / len(votes), 2)
+    elif pred_b is not None:
+        prediction = pred_b
+        confidence = conf_b
     else:
-        prediction = "phishing" if votes.count("phishing") >= 1 else "legitimate"
-        confidences = [c for c in [conf_a, conf_b] if c is not None]
-        confidence = round(sum(confidences) / len(confidences), 2)
+        prediction = pred_a
+        confidence = conf_a
     
     models_agree = (pred_b is None) or (pred_a == pred_b)
     THRESHOLD_HIGH, THRESHOLD_LOW = 80, 60
     
-    if typosquat_domains or (prediction == "phishing" and models_agree and confidence >= THRESHOLD_HIGH):
+    if typosquat_domains or (prediction == "phishing" and confidence >= THRESHOLD_HIGH):
         status_line = t["status_phishing_high"]
         status_color = "#dc2626"
         status_bg = "#fef2f2"
@@ -526,19 +528,13 @@ def detect_sms(text, is_human, agrees_privacy, lang):
         if typosquat_domains:
             why_parts.append(t["why_typosquatting"].format(domains=", ".join(typosquat_domains)))
         action = t["action_phishing_high"]
-    elif not models_agree:
-        status_line = t["status_models_disagree"]
-        status_color = "#d97706"
-        status_bg = "#fffbeb"
-        why_parts = [t["why_disagree_tfidf"].format(pred_a=pred_a, pred_b=pred_b)]
-        if red_flags:
-            why_parts.append(t["why_red_flags"].format(red_flags=", ".join(red_flags)))
-        action = t["action_disagree"]
     elif THRESHOLD_LOW <= confidence < THRESHOLD_HIGH:
         status_line = t["status_not_sure"]
         status_color = "#d97706"
         status_bg = "#fffbeb"
         why_parts = [t["why_low_confidence"]]
+        if not models_agree:
+            why_parts.append(t["why_disagree_tfidf"].format(pred_a=pred_a, pred_b=pred_b))
         if red_flags:
             why_parts.append(t["why_red_flags"].format(red_flags=", ".join(red_flags)))
         action = t["action_not_sure"]
@@ -555,6 +551,8 @@ def detect_sms(text, is_human, agrees_privacy, lang):
         status_color = "#059669"
         status_bg = "#f0fdf4"
         why_parts = [t["why_legit"]]
+        if not models_agree:
+            why_parts.append(t["why_disagree_tfidf"].format(pred_a=pred_a, pred_b=pred_b))
         if red_flags:
             why_parts.append(t["why_note_red_flags"].format(red_flags=", ".join(red_flags)))
         action = t["action_legit"]
@@ -642,20 +640,19 @@ def run_batch(file, lang):
         else:
             pred_a, conf_a = "legitimate", 50.0
         if BERTIC_AVAILABLE:
-            bertic_result = bertic_model.predict(f"[{lang_key}] {text}")
+            bertic_result = predict_with_bertic(text, lang_key)
             pred_b, conf_b = bertic_result["label"].lower(), round(bertic_result["confidence"] * 100, 2)
         else:
             pred_b, conf_b = None, None
         
         typosquat = check_typosquatting(text)
-        votes = [pred_a] + ([pred_b] if pred_b is not None else [])
         models_agree = (pred_b is None) or (pred_a == pred_b)
         if typosquat:
             prediction, confidence = "phishing", 95.0
+        elif pred_b is not None:
+            prediction, confidence = pred_b, conf_b
         else:
-            prediction = "phishing" if votes.count("phishing") >= 1 else "legitimate"
-            confidences = [c for c in [conf_a, conf_b] if c is not None]
-            confidence = round(sum(confidences) / len(confidences), 2)
+            prediction, confidence = pred_a, conf_a
         
         threat_keys = get_threat_vectors(text, lang)
         tv_local = get_localized_threat_vectors(lang)
@@ -667,9 +664,9 @@ def run_batch(file, lang):
             v = tv_local["TYPOSQUATTING"]
             flag_mini += f'<span style="background:{v["bg"]};color:{v["color"]};border-radius:999px;padding:1px 6px;font-size:10px;font-weight:600;">🌐 Typosquatting</span>'
         
-        if typosquat or (prediction == "phishing" and models_agree and confidence >= THRESHOLD_HIGH):
+        if typosquat or (prediction == "phishing" and confidence >= THRESHOLD_HIGH):
             verdict, verdict_label, verdict_color = "phishing", t["batch_phishing_label"], "#dc2626"
-        elif not models_agree or (THRESHOLD_LOW <= confidence < THRESHOLD_HIGH):
+        elif THRESHOLD_LOW <= confidence < THRESHOLD_HIGH:
             verdict, verdict_label, verdict_color = "uncertain", t["batch_uncertain_label"], "#d97706"
             uncertain += 1
         elif prediction == "phishing":
