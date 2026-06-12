@@ -4,7 +4,7 @@ emoji: 🎣
 colorFrom: red
 colorTo: orange
 sdk: gradio
-sdk_version: 4.x
+sdk_version: 4.44.0
 app_file: app.py
 pinned: false
 license: mit
@@ -18,7 +18,6 @@ tags:
   - cybersecurity
   - south-slavic-nlp
 ---
-
 # 🎣 Smishi — Ne Nasedaj
 
 **SMS Phishing Detector for Serbian, Bosnian, Croatian & Montenegrin**

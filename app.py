@@ -52,7 +52,7 @@ else:
 
 # --- BERTić model integration ---
 BERTIC_MODEL_ID = "ravi2505/ne-nasedaj-sms-phishing"
-BERTIC_DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+BERTIC_DEVICE = torch.device("cpu")
 
 try:
     bertic_tokenizer = AutoTokenizer.from_pretrained(BERTIC_MODEL_ID)
