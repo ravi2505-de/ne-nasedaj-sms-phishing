@@ -1,4 +1,4 @@
-gradio
+gradio==4.44.0
 pandas
 scikit-learn
 torch
@@ -6,3 +6,4 @@ transformers
 huggingface_hub
 accelerate
 safetensors
+pyaudioop
