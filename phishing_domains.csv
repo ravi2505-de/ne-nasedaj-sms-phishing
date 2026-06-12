@@ -1,0 +1,647 @@
+domain,target_domain,country,brand,technique
+raiffeisen-banka.com,raiffeisenbanka.rs,sr,Raiffeisen Banka,brand_suffix
+raiffaisen.rs,raiffeisenbanka.rs,sr,Raiffeisen Banka,typosquatting
+otp-banka-online.rs,otpbanka.rs,sr,OTP Banka,keyword_injection
+otp-srbija.net,otpbanka.rs,sr,OTP Banka,brand_suffix
+nlb-komercijalna.com,nlbbanka.rs,sr,NLB Komercijalna,brand_suffix
+nlb-sigurnost.rs,nlbbanka.rs,sr,NLB Komercijalna,keyword_injection
+erste-banka-cg.com,erstebankacg.me,cg,Erste Banka CG,brand_suffix
+erste-banka-hr.net,erstebanka.hr,hr,Erste Banka,brand_suffix
+intesa-banka-srbija.com,intesabanka.rs,sr,Banca Intesa,brand_suffix
+aik-banka-rs.net,aikbanka.rs,sr,AIK Banka,brand_suffix
+procredit-banka.rs,procreditbanka.rs,sr,ProCredit Banka,brand_suffix
+unicredit-banka-bih.com,unicredit.ba,bih,UniCredit Banka,brand_suffix
+zaba-banka.com,zaba.hr,hr,Zagrebačka banka,brand_suffix
+pbz-online.hr,pbz.hr,hr,PBZ,keyword_injection
+rba-banka.com,rba.hr,hr,RBA,brand_suffix
+hrvatska-banka.com,hpb.hr,hr,HPB,brand_suffix
+hipotekarna-cg.com,hipotekarna.me,cg,Hipotekarna Banka,brand_suffix
+sparkasse-bh.net,sparkasse.ba,bih,Sparkasse Banka,brand_suffix
+cgbank-sigurnost.com,cgbank.me,cg,CG Banka,keyword_injection
+pkb-banka-rs.com,pkb.rs,sr,PKB Banka,brand_suffix
+raiffeisen-sigurno.com,raiffeisenbanka.rs,sr,Raiffeisen Banka,keyword_injection
+otp-aktivacija.rs,otpbanka.rs,sr,OTP Banka,keyword_injection
+nlb-verifikacija.net,nlbbanka.rs,sr,NLB Komercijalna,keyword_injection
+intesa-e-banking.rs,intesabanka.rs,sr,Banca Intesa,keyword_injection
+zaba-token.hr,zaba.hr,hr,Zagrebačka banka,keyword_injection
+mts-racun.info,mts.rs,sr,MTS,keyword_injection
+mts-online-srbija.com,mts.rs,sr,MTS,brand_suffix
+telekom-srbija.net,telekom.rs,sr,Telekom Srbija,brand_suffix
+telekom-ugovori.com,telekom.rs,sr,Telekom Srbija,keyword_injection
+a1-srbija.rs,a1.rs,sr,A1 Srbija,brand_suffix
+a1-online.rs,a1.rs,sr,A1 Srbija,keyword_injection
+yettel-srbija.com,yettel.rs,sr,Yettel,brand_suffix
+yettel-ugovori.net,yettel.rs,sr,Yettel,keyword_injection
+telenor-cg.com,telenor.me,cg,Telenor CG,brand_suffix
+telenor-srbija.net,telenor.rs,sr,Telenor Srbija,brand_suffix
+m-tel.me,mtel.me,cg,m:tel,brand_suffix
+mtel-cg.com,mtel.me,cg,m:tel,brand_suffix
+one-mobilnost.com,one.me,cg,One,keyword_injection
+bh-telecom-ba.com,bhtelecom.ba,bih,BH Telecom,brand_suffix
+telemach-bh.net,telemach.ba,bih,Telemach,brand_suffix
+ht-mojracun.com,ht.hr,hr,Hrvatski Telekom,keyword_injection
+tele2-hr.com,tele2.hr,hr,Tele2,brand_suffix
+vip-hr.net,vip.hr,hr,VIP,brand_suffix
+posta-srbija.net,posta.rs,sr,Pošta Srbije,brand_suffix
+postasrbija.com,posta.rs,sr,Pošta Srbije,brand_suffix
+posta-cg.me,posta.me,cg,Pošta Crne Gore,brand_suffix
+bhposta-carina.net,bhposta.ba,bih,BH Pošta,keyword_injection
+hrvatska-posta.com,posta.hr,hr,Hrvatska pošta,brand_suffix
+dexpress-dostava.net,dexpress.rs,sr,DExpress,keyword_injection
+dexpress-online.rs,dexpress.rs,sr,DExpress,keyword_injection
+postexpress-carina.rs,postexpress.rs,sr,PostExpress,keyword_injection
+glovo-dostava.com,glovo.rs,sr,Glovo,keyword_injection
+wolt-srbija.net,wolt.rs,sr,Wolt,brand_suffix
+dhl-serbia.com,dhl.rs,sr,DHL,brand_suffix
+dpd-balkan.com,dpd.rs,sr,DPD,brand_suffix
+gls-express-rs.net,gls.rs,sr,GLS,brand_suffix
+kurir-dostava.com,kurir.rs,sr,Kurir,brand_suffix
+paket-pratite.rs,posta.rs,sr,Pošta Srbije,keyword_injection
+posta-rs-tracking.com,posta.rs,sr,Pošta Srbije,keyword_injection
+postexpress-rs.net,postexpress.rs,sr,PostExpress,brand_suffix
+dhl-tracking-rs.com,dhl.rs,sr,DHL,keyword_injection
+wolt-promo.rs,wolt.rs,sr,Wolt,keyword_injection
+glovo-bonus.com,glovo.rs,sr,Glovo,keyword_injection
+mup-srbija.net,mup.gov.rs,sr,MUP Srbije,brand_suffix
+mup-rs.com,mup.gov.rs,sr,MUP Srbije,brand_suffix
+uprava-policije.rs,policija.gov.rs,sr,Uprava policije,brand_suffix
+carina-srbija.com,carina.gov.rs,sr,Uprava carina,brand_suffix
+carina-cg.net,carina.gov.me,cg,Uprava carina,brand_suffix
+poreska-uprava-rs.com,purs.gov.rs,sr,Poreska uprava,brand_suffix
+putarini-plati.rs,putevi-srbije.rs,sr,Putevi Srbije,keyword_injection
+putari-srbija.com,putevi-srbije.rs,sr,Putevi Srbije,brand_suffix
+parking-beograd.com,parking-beograd.rs,sr,Parking Beograd,brand_suffix
+parking-novi-sad.net,parking-novisad.rs,sr,Parking Novi Sad,brand_suffix
+parking-podgorica.com,parking-podgorica.me,cg,Parking Podgorica,brand_suffix
+parking-sarajevo.net,parking.ba,bih,Parking Sarajevo,brand_suffix
+parking-zagreb.com,parking-zagreb.hr,hr,Parking Zagreb,brand_suffix
+parking-split.net,parking-split.hr,hr,Parking Split,brand_suffix
+parkomat-plati.hr,parkomat.hr,hr,Parkomat,keyword_injection
+nagrada-dobit.com,,sr,Nagrada,scam
+voucher-dobit.net,,sr,Voucher,scam
+t-com-nagrada.com,t-hrvatski.hr,hr,T-HT,brand_suffix
+konzum-nagrada.net,konzum.hr,hr,Konzum,brand_suffix
+lidl-kupon.com,lidl.hr,hr,Lidl,brand_suffix
+t2-nagrada.net,tele2.hr,hr,Tele2,brand_suffix
+muller-nagrada.com,muller.ba,bih,Müller,brand_suffix
+petrol-nagrada.net,petrol.hr,hr,Petrol,brand_suffix
+mercator-bonus.com,mercator.rs,sr,Mercator,brand_suffix
+idea-ugovori.rs,idea.rs,sr,Idea,keyword_injection
+maxipromocija.com,maxi.rs,sr,Maxi,brand_suffix
+dm-drogerie-bonus.hr,dm.hr,hr,DM,keyword_injection
+besplatno-putovanje.com,,sr,Putovanje,scam
+iphone-dobitak.net,,sr,iPhone,scam
+giftcard-free.net,,sr,Gift Card,scam
+airserbia-refund.com,airserbia.com,sr,Air Serbia,brand_suffix
+sberbank-unlock.net,sberbank.rs,sr,Sberbank,keyword_injection
+kreditna-unija-rs.com,kreditnaunija.rs,sr,Kreditna unija,brand_suffix
+unicredit-token.rs,unicredit.rs,sr,Unicredit,keyword_injection
+procredit-rata.net,procredit.rs,sr,ProCredit,keyword_injection
+mts-prepaid.rs,mts.rs,sr,MTS,keyword_injection
+telekom-fiksni.net,telekom.rs,sr,Telekom Srbija,keyword_injection
+a1-roaming.com,a1.rs,sr,A1 Srbija,keyword_injection
+yettel-prepaid.rs,yettel.rs,sr,Yettel,keyword_injection
+m-tel-postpaid.me,mtel.me,cg,m:tel,keyword_injection
+bh-telecom-internet.ba,bhtelecom.ba,bih,BH Telecom,keyword_injection
+ht-paketi.hr,ht.hr,hr,Hrvatski Telekom,keyword_injection
+posta-rs.net,posta.rs,sr,Pošta Srbije,tld_swap
+posta-cg.com,posta.me,cg,Pošta Crne Gore,brand_suffix
+bhposta.com,bhposta.ba,bih,BH Pošta,brand_suffix
+posta-hr.net,posta.hr,hr,Hrvatska pošta,tld_swap
+dexpress.rs,dexpress.rs,sr,DExpress,exact_match
+postexpress.rs,postexpress.rs,sr,PostExpress,exact_match
+glovo.rs,glovo.rs,sr,Glovo,exact_match
+wolt.rs,wolt.rs,sr,Wolt,exact_match
+mup.gov.rs,mup.gov.rs,sr,MUP Srbije,exact_match
+carina.gov.rs,carina.gov.rs,sr,Uprava carina,exact_match
+purs.gov.rs,purs.gov.rs,sr,Poreska uprava,exact_match
+putevi-srbije.rs,putevi-srbije.rs,sr,Putevi Srbije,exact_match
+parking-beograd.rs,parking-beograd.rs,sr,Parking Beograd,exact_match
+parking-novisad.rs,parking-novisad.rs,sr,Parking Novi Sad,exact_match
+parking-podgorica.me,parking-podgorica.me,cg,Parking Podgorica,exact_match
+parking.ba,parking.ba,bih,Parking Sarajevo,exact_match
+parking-zagreb.hr,parking-zagreb.hr,hr,Parking Zagreb,exact_match
+parking-split.hr,parking-split.hr,hr,Parking Split,exact_match
+parkomat.hr,parkomat.hr,hr,Parkomat,exact_match
+t-hrvatski.hr,t-hrvatski.hr,hr,T-HT,exact_match
+konzum.hr,konzum.hr,hr,Konzum,exact_match
+lidl.hr,lidl.hr,hr,Lidl,exact_match
+tele2.hr,tele2.hr,hr,Tele2,exact_match
+muller.ba,muller.ba,bih,Müller,exact_match
+petrol.hr,petrol.hr,hr,Petrol,exact_match
+mercator.rs,mercator.rs,sr,Mercator,exact_match
+idea.rs,idea.rs,sr,Idea,exact_match
+maxi.rs,maxi.rs,sr,Maxi,exact_match
+dm.hr,dm.hr,hr,DM,exact_match
+airserbia.com,airserbia.com,sr,Air Serbia,exact_match
+sberbank.rs,sberbank.rs,sr,Sberbank,exact_match
+kreditnaunija.rs,kreditnaunija.rs,sr,Kreditna unija,exact_match
+unicredit.rs,unicredit.rs,sr,Unicredit,exact_match
+procredit.rs,procredit.rs,sr,ProCredit,exact_match
+mts.rs,mts.rs,sr,MTS,exact_match
+telekom.rs,telekom.rs,sr,Telekom Srbija,exact_match
+a1.rs,a1.rs,sr,A1 Srbija,exact_match
+yettel.rs,yettel.rs,sr,Yettel,exact_match
+mtel.me,mtel.me,cg,m:tel,exact_match
+bhtelecom.ba,bhtelecom.ba,bih,BH Telecom,exact_match
+telemach.ba,telemach.ba,bih,Telemach,exact_match
+ht.hr,ht.hr,hr,Hrvatski Telekom,exact_match
+vip.hr,vip.hr,hr,VIP,exact_match
+posta.rs,posta.rs,sr,Pošta Srbije,exact_match
+posta.me,posta.me,cg,Pošta Crne Gore,exact_match
+bhposta.ba,bhposta.ba,bih,BH Pošta,exact_match
+posta.hr,posta.hr,hr,Hrvatska pošta,exact_match
+dhl.rs,dhl.rs,sr,DHL,exact_match
+dpd.rs,dpd.rs,sr,DPD,exact_match
+gls.rs,gls.rs,sr,GLS,exact_match
+kurir.rs,kurir.rs,sr,Kurir,exact_match
+mup.gov.me,mup.gov.me,cg,Uprava policije,exact_match
+carina.gov.me,carina.gov.me,cg,Uprava carina,exact_match
+poreskauprava.gov.me,poreskauprava.gov.me,cg,Poreska uprava,exact_match
+parking-tivat.me,parking-tivat.me,cg,Parking Tivat,exact_match
+parking-budva.me,parking-budva.me,cg,Parking Budva,exact_match
+parking-bar.me,parking-bar.me,cg,Parking Bar,exact_match
+parking-kotor.me,parking-kotor.me,cg,Parking Kotor,exact_match
+parking-hercegnovi.me,parking-hercegnovi.me,cg,Parking Herceg Novi,exact_match
+parking-bijelopolje.me,parking-bijelopolje.me,cg,Parking Bijelo Polje,exact_match
+parking-berane.me,parking-berane.me,cg,Parking Berane,exact_match
+parking-niksic.me,parking-niksic.me,cg,Parking Nikšić,exact_match
+parking-cetinje.me,parking-cetinje.me,cg,Parking Cetinje,exact_match
+parking-danilovgrad.me,parking-danilovgrad.me,cg,Parking Danilovgrad,exact_match
+parking-gusinje.me,parking-gusinje.me,cg,Parking Gusinje,exact_match
+parking-plav.me,parking-plav.me,cg,Parking Plav,exact_match
+parking-rozaje.me,parking-rozaje.me,cg,Parking Rožaje,exact_match
+parking-mojkovac.me,parking-mojkovac.me,cg,Parking Mojkovac,exact_match
+parking-pljevlja.me,parking-pljevlja.me,cg,Parking Pljevlja,exact_match
+parking-zabljak.me,parking-zabljak.me,cg,Parking Žabljak,exact_match
+parking-andrijevica.me,parking-andrijevica.me,cg,Parking Andrijevica,exact_match
+parking-zeta.me,parking-zeta.me,cg,Parking Zeta,exact_match
+parking-ulcinj.me,parking-ulcinj.me,cg,Parking Ulcinj,exact_match
+parking-bar.ba,parking-bar.ba,bih,Parking Bar,exact_match
+parking-bijeljina.ba,parking-bijeljina.ba,bih,Parking Bijeljina,exact_match
+parking-brcko.ba,parking-brcko.ba,bih,Parking Brčko,exact_match
+parking-doboj.ba,parking-doboj.ba,bih,Parking Doboj,exact_match
+parking-goražde.ba,parking-gorazde.ba,bih,Parking Goražde,exact_match
+parking-gradačac.ba,parking-gradacac.ba,bih,Parking Gradačac,exact_match
+parking-jajce.ba,parking-jajce.ba,bih,Parking Jajce,exact_match
+parking-kakanj.ba,parking-kakanj.ba,bih,Parking Kakanj,exact_match
+parking-kalesija.ba,parking-kalesija.ba,bih,Parking Kalesija,exact_match
+parking-kiseljak.ba,parking-kiseljak.ba,bih,Parking Kiseljak,exact_match
+parking-konjic.ba,parking-konjic.ba,bih,Parking Konjic,exact_match
+parking-livno.ba,parking-livno.ba,bih,Parking Livno,exact_match
+parking-lukavac.ba,parking-lukavac.ba,bih,Parking Lukavac,exact_match
+parking-maglaj.ba,parking-maglaj.ba,bih,Parking Maglaj,exact_match
+parking-mostar.ba,parking-mostar.ba,bih,Parking Mostar,exact_match
+parking-mrkonci.ba,parking-mrkonci.ba,bih,Parking Mrkonjić Grad,exact_match
+parking-novo-sarajevo.ba,parking-novo-sarajevo.ba,bih,Parking Novo Sarajevo,exact_match
+parking-pale.ba,parking-pale.ba,bih,Parking Pale,exact_match
+parking-prijedor.ba,parking-prijedor.ba,bih,Parking Prijedor,exact_match
+parking-sanski-most.ba,parking-sanski-most.ba,bih,Parking Sanski Most,exact_match
+parking-srebrenica.ba,parking-srebrenica.ba,bih,Parking Srebrenica,exact_match
+parking-tešanj.ba,parking-tesanj.ba,bih,Parking Tešanj,exact_match
+parking-travnik.ba,parking-travnik.ba,bih,Parking Travnik,exact_match
+parking-tuzla.ba,parking-tuzla.ba,bih,Parking Tuzla,exact_match
+parking-visoko.ba,parking-visoko.ba,bih,Parking Visoko,exact_match
+parking-vitez.ba,parking-vitez.ba,bih,Parking Vitez,exact_match
+parking-zenica.ba,parking-zenica.ba,bih,Parking Zenica,exact_match
+parking-zivinice.ba,parking-zivinice.ba,bih,Parking Živinice,exact_match
+parking-zvornik.ba,parking-zvornik.ba,bih,Parking Zvornik,exact_match
+parking-banja-luka.ba,parking-banja-luka.ba,bih,Parking Banja Luka,exact_match
+parking-east-sarajevo.ba,parking-east-sarajevo.ba,bih,Parking Istočno Sarajevo,exact_match
+parking-foca.ba,parking-foca.ba,bih,Parking Foča,exact_match
+parking-gacko.ba,parking-gacko.ba,bih,Parking Gacko,exact_match
+parking-ileza.ba,parking-ileza.ba,bih,Parking Ilijaš,exact_match
+parking-jablanica.ba,parking-jablanica.ba,bih,Parking Jablanica,exact_match
+parking-kalinovik.ba,parking-kalinovik.ba,bih,Parking Kalinovik,exact_match
+parking-kotor-varos.ba,parking-kotor-varos.ba,bih,Parking Kotor Varoš,exact_match
+parking-laktasi.ba,parking-laktasi.ba,bih,Parking Laktasi,exact_match
+parking-ljubinje.ba,parking-ljubinje.ba,bih,Parking Ljubinje,exact_match
+parking-modrica.ba,parking-modrica.ba,bih,Parking Modriča,exact_match
+parking-nevesinje.ba,parking-nevesinje.ba,bih,Parking Nevesinje,exact_match
+parking-odzak.ba,parking-odzak.ba,bih,Parking Odžak,exact_match
+parking-opacani.ba,parking-opacani.ba,bih,Parking Orašje,exact_match
+parking-osmac.ba,parking-osmac.ba,bih,Parking Osmaci,exact_match
+parking-petrovac.ba,parking-petrovac.ba,bih,Parking Petrovac,exact_match
+parking-posusje.ba,parking-posusje.ba,bih,Parking Posušje,exact_match
+parking-prnjavor.ba,parking-prnjavor.ba,bih,Parking Prnjavor,exact_match
+parking-rudo.ba,parking-rudo.ba,bih,Parking Rudo,exact_match
+parking-sapna.ba,parking-sapna.ba,bih,Parking Sapna,exact_match
+parking-sokolac.ba,parking-sokolac.ba,bih,Parking Sokolac,exact_match
+parking-stolac.ba,parking-stolac.ba,bih,Parking Stolac,exact_match
+parking-tomislavgrad.ba,parking-tomislavgrad.ba,bih,Parking Tomislavgrad,exact_match
+parking-trebinje.ba,parking-trebinje.ba,bih,Parking Trebinje,exact_match
+parking-usora.ba,parking-usora.ba,bih,Parking Usora,exact_match
+parking-vares.ba,parking-vares.ba,bih,Parking Vareš,exact_match
+parking-vlasenica.ba,parking-vlasenica.ba,bih,Parking Vlasenica,exact_match
+parking-vogosca.ba,parking-vogosca.ba,bih,Parking Vogosća,exact_match
+parking-zavidovici.ba,parking-zavidovici.ba,bih,Parking Zavidovići,exact_match
+parking-zepce.ba,parking-zepce.ba,bih,Parking Žepče,exact_match
+parking-zupanja.hr,parking-zupanja.hr,hr,Parking Županja,exact_match
+parking-zut.hr,parking-zut.hr,hr,Parking Žut,exact_match
+parking-zvecevo.hr,parking-zvecevo.hr,hr,Parking Zvečevо,exact_match
+parking-zumberak.hr,parking-zumberak.hr,hr,Parking Žumberak,exact_match
+putevi-notice.cc,putevi-srbije.rs,RS,Putevi Srbije,added-word
+putevi-kazna.rs,putevi-srbije.rs,RS,Putevi Srbije,added-word
+putevi-srbije.login,putevi-srbije.rs,RS,Putevi Srbije,added-word
+putevi-srbije.online,putevi-srbije.rs,RS,Putevi Srbije,wrong-tld
+putevi-srbije.org,putevi-srbije.rs,RS,Putevi Srbije,wrong-tld
+putevi-srbije.rs.com,putevi-srbije.rs,RS,Putevi Srbije,wrong-tld
+putevi-srbijeee.rs,putevi-srbije.rs,RS,Putevi Srbije,repetition
+putevi-srbije-rs.rs,putevi-srbije.rs,RS,Putevi Srbije,omitted-dot
+putevi-srbije-info.rs,putevi-srbije.rs,RS,Putevi Srbije,added-word
+putevi-srbije-payment.rs,putevi-srbije.rs,RS,Putevi Srbije,added-word
+mup-gov.rs,mup.gov.rs,RS,MUP Srbije,omitted-dot
+mup.gov.net,mup.gov.rs,RS,MUP Srbije,wrong-tld
+mup.gov.org,mup.gov.rs,RS,MUP Srbije,wrong-tld
+mup.gov.online,mup.gov.rs,RS,MUP Srbije,wrong-tld
+mup-gov.online,mup.gov.rs,RS,MUP Srbije,wrong-tld
+mup.rs.com,mup.gov.rs,RS,MUP Srbije,wrong-tld
+mupp.gov.rs,mup.gov.rs,RS,MUP Srbije,repetition
+muup.gov.rs,mup.gov.rs,RS,MUP Srbije,repetition
+mup-login.gov.rs,mup.gov.rs,RS,MUP Srbije,added-word
+mup-verify.gov.rs,mup.gov.rs,RS,MUP Srbije,added-word
+euprava.gov.online,euprava.gov.rs,RS,eUprava Srbija,wrong-tld
+euprava-gov.rs,euprava.gov.rs,RS,eUprava Srbija,omitted-dot
+euprava-login.rs,euprava.gov.rs,RS,eUprava Srbija,added-word
+e-uprava.rs,euprava.gov.rs,RS,eUprava Srbija,omitted-dot
+euprva.rs,euprava.gov.rs,RS,eUprava Srbija,substitution
+euprava-secure.rs,euprava.gov.rs,RS,eUprava Srbija,added-word
+poreskauprava.gov.online,poreskauprava.gov.rs,RS,Poreska uprava Srbija,wrong-tld
+poreskauprava-gov.rs,poreskauprava.gov.rs,RS,Poreska uprava Srbija,omitted-dot
+poreskauprava-login.rs,poreskauprava.gov.rs,RS,Poreska uprava Srbija,added-word
+porezna.rs,poreskauprava.gov.rs,RS,Poreska uprava Srbija,substitution
+rzs.gov.online,rzs.gov.rs,RS,RZS Srbija,wrong-tld
+rzs-gov.rs,rzs.gov.rs,RS,RZS Srbija,omitted-dot
+rzs-login.rs,rzs.gov.rs,RS,RZS Srbija,added-word
+rzss.rs,rzs.gov.rs,RS,RZS Srbija,repetition
+pio.rs,pio.rs,RS,PIO Fond,wrong-tld
+piofond.rs,pio.rs,RS,PIO Fond,substitution
+pio-login.rs,pio.rs,RS,PIO Fond,added-word
+posta.rs.com,posta.rs,RS,Pošta Srbije,wrong-tld
+posta.online,posta.rs,RS,Pošta Srbije,wrong-tld
+posta-login.rs,posta.rs,RS,Pošta Srbije,added-word
+posta-srbije.rs,posta.rs,RS,Pošta Srbije,omitted-dot
+postexpress.rs.com,posta.rs,RS,Post Express,wrong-tld
+dexpress.rs.com,dexpress.rs,RS,DExpress,wrong-tld
+dexpress-login.rs,dexpress.rs,RS,DExpress,added-word
+dexpress-tracking.rs,dexpress.rs,RS,DExpress,added-word
+cityexpress.rs.com,cityexpress.rs,RS,City Express,wrong-tld
+cityexpress-login.rs,cityexpress.rs,RS,City Express,added-word
+overseas.rs.com,overseas.rs,RS,Overseas Express,wrong-tld
+eps.rs.com,eps.rs,RS,EPS,wrong-tld
+eps.online,eps.rs,RS,EPS,wrong-tld
+eps-login.rs,eps.rs,RS,EPS,added-word
+eps-bills.rs,eps.rs,RS,EPS,added-word
+srbijagas.rs.com,srbijagas.rs,RS,Srbijagas,wrong-tld
+srbijagas-login.rs,srbijagas.rs,RS,Srbijagas,added-word
+infrazs.rs.com,infrazs.rs,RS,Infrastruktura železnice,wrong-tld
+bancaintesa.rs.com,bancaintesa.rs,RS,Banca Intesa,wrong-tld
+bancaintesa.online,bancaintesa.rs,RS,Banca Intesa,wrong-tld
+bancaintesa-login.rs,bancaintesa.rs,RS,Banca Intesa,added-word
+bancaintesa-verify.rs,bancaintesa.rs,RS,Banca Intesa,added-word
+bancaintesa-secure.rs,bancaintesa.rs,RS,Banca Intesa,added-word
+bancaintesaa.rs,bancaintesa.rs,RS,Banca Intesa,repetition
+bancaintesas.rs,bancaintesa.rs,RS,Banca Intesa,repetition
+banca-intesa.rs,bancaintesa.rs,RS,Banca Intesa,omitted-dot
+raiffeisenbank.rs.com,raiffeisenbank.rs,RS,Raiffeisen Bank,wrong-tld
+raiffeisen.online,raiffeisenbank.rs,RS,Raiffeisen Bank,wrong-tld
+raiffeisen-login.rs,raiffeisenbank.rs,RS,Raiffeisen Bank,added-word
+raiffeisen-verify.rs,raiffeisenbank.rs,RS,Raiffeisen Bank,added-word
+raiffesen.rs,raiffeisenbank.rs,RS,Raiffeisen Bank,substitution
+raiffeisen-bank.rs,raiffeisenbank.rs,RS,Raiffeisen Bank,omitted-dot
+otpbank.rs.com,otpbank.rs,RS,OTP Banka,wrong-tld
+otp.online,otpbank.rs,RS,OTP Banka,wrong-tld
+otp-login.rs,otpbank.rs,RS,OTP Banka,added-word
+otp-verify.rs,otpbank.rs,RS,OTP Banka,added-word
+otpbanka.rs,otpbank.rs,RS,OTP Banka,substitution
+otp-bank.rs,otpbank.rs,RS,OTP Banka,omitted-dot
+unicreditbank.rs.com,unicreditbank.rs,RS,UniCredit Bank,wrong-tld
+unicredit.online,unicreditbank.rs,RS,UniCredit Bank,wrong-tld
+unicredit-login.rs,unicreditbank.rs,RS,UniCredit Bank,added-word
+unicredit-verify.rs,unicreditbank.rs,RS,UniCredit Bank,added-word
+unicredit-bank.rs,unicreditbank.rs,RS,UniCredit Bank,omitted-dot
+aikbanka.rs.com,aikbanka.rs,RS,AIK Banka,wrong-tld
+aikbanka.online,aikbanka.rs,RS,AIK Banka,wrong-tld
+aik-login.rs,aikbanka.rs,RS,AIK Banka,added-word
+aikbanka-login.rs,aikbanka.rs,RS,AIK Banka,added-word
+aik-banka.rs,aikbanka.rs,RS,AIK Banka,omitted-dot
+nlb.rs.com,nlb.rs,RS,NLB Komercijalna banka,wrong-tld
+nlb-login.rs,nlb.rs,RS,NLB Komercijalna banka,added-word
+erstebank.rs.com,erstebank.rs,RS,Erste Bank,wrong-tld
+erste.online,erstebank.rs,RS,Erste Bank,wrong-tld
+erste-login.rs,erstebank.rs,RS,Erste Bank,added-word
+erste-bank.rs,erstebank.rs,RS,Erste Bank,omitted-dot
+mts.rs.com,mts.rs,RS,mts,wrong-tld
+mts.online,mts.rs,RS,mts,wrong-tld
+mts-login.rs,mts.rs,RS,mts,added-word
+mts-bill.rs,mts.rs,RS,mts,added-word
+mts.rs.net,mts.rs,RS,mts,wrong-tld
+yettel.rs.com,yettel.rs,RS,Yettel,wrong-tld
+yettel.online,yettel.rs,RS,Yettel,wrong-tld
+yettel-login.rs,yettel.rs,RS,Yettel,added-word
+yettel-verify.rs,yettel.rs,RS,Yettel,added-word
+a1.rs.com,a1.rs,RS,A1 Srbija,wrong-tld
+a1.online,a1.rs,RS,A1 Srbija,wrong-tld
+a1-login.rs,a1.rs,RS,A1 Srbija,added-word
+sbb.rs.com,sbb.rs,RS,SBB,wrong-tld
+sbb.online,sbb.rs,RS,SBB,wrong-tld
+sbb-login.rs,sbb.rs,RS,SBB,added-word
+sbb-account.rs,sbb.rs,RS,SBB,added-word
+oriontelekom.rs.com,oriontelekom.rs,RS,Orion Telekom,wrong-tld
+orion-login.rs,oriontelekom.rs,RS,Orion Telekom,added-word
+supernova.rs.com,supernova.rs,RS,Supernova,wrong-tld
+kopenikus.rs,kopernikus.rs,RS,Kopernikus,substitution
+beotel.rs.com,beotel.rs,RS,BeotelNet,wrong-tld
+glovoapp.com.online,glovoapp.com,RS,Glovo,wrong-tld
+glovo-login.rs,glovoapp.com,RS,Glovo,added-word
+wolt.com.online,wolt.com,RS,Wolt,wrong-tld
+donesi.rs.com,donesi.rs,RS,Donesi,wrong-tld
+maxi.rs.com,maxi.rs,RS,Maxi,wrong-tld
+maxi.online,maxi.rs,RS,Maxi,wrong-tld
+maxi-login.rs,maxi.rs,RS,Maxi,added-word
+idea.rs.com,idea.rs,RS,Idea,wrong-tld
+univerexport.rs.com,univerexport.rs,RS,Univerexport,wrong-tld
+tempo.rs.com,tempo.rs,RS,Tempo,wrong-tld
+gigatron.rs.com,gigatron.rs,RS,Gigatron,wrong-tld
+gigatron-login.rs,gigatron.rs,RS,Gigatron,added-word
+tehnomanija.rs.com,tehnomanija.rs,RS,Tehnomanija,wrong-tld
+winwin.rs.com,winwin.rs,RS,WinWin,wrong-tld
+lidl.rs.com,lidl.rs,RS,Lidl,wrong-tld
+lidl-online.rs,lidl.rs,RS,Lidl,added-word
+nis.rs.com,nis.rs,RS,NIS Petrol,wrong-tld
+nis-login.rs,nis.rs,RS,NIS Petrol,added-word
+lukoil.rs.com,lukoil.rs,RS,Lukoil,wrong-tld
+omv.rs.com,omv.rs,RS,OMV,wrong-tld
+gazprom.rs.com,gazprom.rs,RS,Gazprom,wrong-tld
+blic.rs.com,blic.rs,RS,Blic,wrong-tld
+blic.online,blic.rs,RS,Blic,wrong-tld
+blic-info.rs,blic.rs,RS,Blic,added-word
+blic-vesti.rs,blic.rs,RS,Blic,added-word
+blicc.rs,blic.rs,RS,Blic,repetition
+kurir.rs.com,kurir.rs,RS,Kurir,wrong-tld
+kurir.online,kurir.rs,RS,Kurir,wrong-tld
+kurir-info.rs,kurir.rs,RS,Kurir,added-word
+kurirr.rs,kurir.rs,RS,Kurir,repetition
+telegraf.rs.com,telegraf.rs,RS,Telegraf,wrong-tld
+telegraf.online,telegraf.rs,RS,Telegraf,wrong-tld
+telegraf-info.rs,telegraf.rs,RS,Telegraf,added-word
+telegraff.rs,telegraf.rs,RS,Telegraf,repetition
+novosti.rs.com,novosti.rs,RS,Novosti,wrong-tld
+novosti.online,novosti.rs,RS,Novosti,wrong-tld
+novost.rs,novosti.rs,RS,Novosti,substitution
+politika.rs.com,politika.rs,RS,Politika,wrong-tld
+politika.online,politika.rs,RS,Politika,wrong-tld
+politka.rs,politika.rs,RS,Politika,substitution
+b92.rs.com,b92.rs,RS,B92,wrong-tld
+b92.online,b92.rs,RS,B92,wrong-tld
+b922.rs,b92.rs,RS,B92,repetition
+rts.rs.com,rts.rs,RS,RTS,wrong-tld
+rts.online,rts.rs,RS,RTS,wrong-tld
+rtts.rs,rts.rs,RS,RTS,repetition
+n1.rs.com,n1.rs,RS,N1,wrong-tld
+n1-info.rs,n1.rs,RS,N1,added-word
+kupujemprodajem.rs.com,kupujemprodajem.rs,RS,KupujemProdajem,wrong-tld
+kupujemprodajem.online,kupujemprodajem.rs,RS,KupujemProdajem,wrong-tld
+kp.rs.com,kupujemprodajem.rs,RS,KupujemProdajem,wrong-tld
+kupujemprodajem-login.rs,kupujemprodajem.rs,RS,KupujemProdajem,added-word
+eporezi.gov.online,eporezi.gov.rs,RS,ePorezi,wrong-tld
+eporezi-login.rs,eporezi.gov.rs,RS,ePorezi,added-word
+beg.aero.online,beg.aero,RS,Beogradski aerodrom,wrong-tld
+cert.rs.com,cert.rs,RS,CERT Srbije,wrong-tld
+mup-gov.hr,mup.gov.hr,HR,MUP Hrvatske,omitted-dot
+mup-login.hr,mup.gov.hr,HR,MUP Hrvatske,added-word
+mup.hr.com,mup.gov.hr,HR,MUP Hrvatske,wrong-tld
+gov-hr.online,gov.hr,HR,e-Građani Hrvatska,wrong-tld
+gov-hr.login,gov.hr,HR,e-Građani Hrvatska,added-word
+e-gradani.online,gov.hr,HR,e-Građani Hrvatska,wrong-tld
+e-gradani-login.hr,gov.hr,HR,e-Građani Hrvatska,added-word
+egradani.hr.com,gov.hr,HR,e-Građani Hrvatska,wrong-tld
+porezna-uprava.online,porezna-uprava.gov.hr,HR,Porezna uprava Hrvatska,wrong-tld
+porezna-uprava-login.hr,porezna-uprava.gov.hr,HR,Porezna uprava Hrvatska,added-word
+porezna.hr.com,porezna-uprava.gov.hr,HR,Porezna uprava Hrvatska,wrong-tld
+carnet.hr.com,carnet.hr,HR,CARNET,wrong-tld
+posta.hr.com,posta.hr,HR,Hrvatska pošta,wrong-tld
+posta-login.hr,posta.hr,HR,Hrvatska pošta,added-word
+posta-verify.hr,posta.hr,HR,Hrvatska pošta,added-word
+hrvatska-posta.online,posta.hr,HR,Hrvatska pošta,wrong-tld
+hrvatska-posta-login.hr,posta.hr,HR,Hrvatska pošta,added-word
+hzpp.hr.com,hzpp.hr,HR,HŽ,wrong-tld
+hc.hr.com,hc.hr,HR,Hrvatske ceste,wrong-tld
+hep.hr.com,hep.hr,HR,HEP,wrong-tld
+hep-login.hr,hep.hr,HR,HEP,added-word
+zaba.hr.com,zaba.hr,HR,Zagrebačka banka,wrong-tld
+zaba.online,zaba.hr,HR,Zagrebačka banka,wrong-tld
+zaba-login.hr,zaba.hr,HR,Zagrebačka banka,added-word
+zabaa.hr,zaba.hr,HR,Zagrebačka banka,repetition
+zagrebacka-banka.online,zaba.hr,HR,Zagrebačka banka,wrong-tld
+zagrebacka-banka-login.hr,zaba.hr,HR,Zagrebačka banka,added-word
+pbz.hr.com,pbz.hr,HR,PBZ,wrong-tld
+pbz.online,pbz.hr,HR,PBZ,wrong-tld
+pbz-login.hr,pbz.hr,HR,PBZ,added-word
+pbzz.hr,pbz.hr,HR,PBZ,repetition
+rba.hr.com,rba.hr,HR,RBA,wrong-tld
+rba.online,rba.hr,HR,RBA,wrong-tld
+rba-login.hr,rba.hr,HR,RBA,added-word
+erstebank.hr.com,erstebank.hr,HR,Erste Bank,wrong-tld
+erste.online,erstebank.hr,HR,Erste Bank,wrong-tld
+erste-login.hr,erstebank.hr,HR,Erste Bank,added-word
+erster.hr,erstebank.hr,HR,Erste Bank,repetition
+addiko.hr.com,addiko.hr,HR,Addiko Bank,wrong-tld
+addiko.online,addiko.hr,HR,Addiko Bank,wrong-tld
+addiko-login.hr,addiko.hr,HR,Addiko Bank,added-word
+otpbank.hr.com,otpbank.hr,HR,OTP Banka Hrvatska,wrong-tld
+ht.hr.com,ht.hr,HR,Hrvatski Telekom,wrong-tld
+ht.online,ht.hr,HR,Hrvatski Telekom,wrong-tld
+ht-login.hr,ht.hr,HR,Hrvatski Telekom,added-word
+a1.hr.com,a1.hr,HR,A1 Hrvatska,wrong-tld
+a1.online,a1.hr,HR,A1 Hrvatska,wrong-tld
+a1-login.hr,a1.hr,HR,A1 Hrvatska,added-word
+telemach.hr.com,telemach.hr,HR,Telemach Hrvatska,wrong-tld
+telemach-login.hr,telemach.hr,HR,Telemach Hrvatska,added-word
+optima-telekom.hr.com,optima-telekom.hr,HR,Optima Telekom,wrong-tld
+iskon.hr.com,iskon.hr,HR,Iskon,wrong-tld
+bnet.hr.com,b.net.hr,HR,B.net,wrong-tld
+amis.hr.com,amis.hr,HR,Amis,wrong-tld
+overseas.hr.com,overseas.hr,HR,Overseas Express Hrvatska,wrong-tld
+pauza.hr.com,pauza.hr,HR,Pauza,wrong-tld
+konzum.hr.com,konzum.hr,HR,Konzum,wrong-tld
+konzum.online,konzum.hr,HR,Konzum,wrong-tld
+konzum-login.hr,konzum.hr,HR,Konzum,added-word
+lidl.hr.com,lidl.hr,HR,Lidl Hrvatska,wrong-tld
+kaufland.hr.com,kaufland.hr,HR,Kaufland Hrvatska,wrong-tld
+plodine.hr.com,plodine.hr,HR,Plodine,wrong-tld
+tommy.hr.com,tommy.hr,HR,Tommy,wrong-tld
+elipso.hr.com,elipso.hr,HR,Elipso,wrong-tld
+ina.hr.com,ina.hr,HR,INA,wrong-tld
+ina-login.hr,ina.hr,HR,INA,added-word
+tifon.hr.com,tifon.hr,HR,Tifon,wrong-tld
+crodux.hr.com,crodux.hr,HR,Crodux,wrong-tld
+index.hr.com,index.hr,HR,Index,wrong-tld
+index.online,index.hr,HR,Index,wrong-tld
+index-info.hr,index.hr,HR,Index,added-word
+indeks.hr,index.hr,HR,Index,substitution
+jutarnji.hr.com,jutarnji.hr,HR,Jutarnji list,wrong-tld
+jutarnji.online,jutarnji.hr,HR,Jutarnji list,wrong-tld
+jutarnji-info.hr,jutarnji.hr,HR,Jutarnji list,added-word
+jutarnjii.hr,jutarnji.hr,HR,Jutarnji list,repetition
+24sata.hr.com,24sata.hr,HR,24sata,wrong-tld
+24sata.online,24sata.hr,HR,24sata,wrong-tld
+24sat.hr,24sata.hr,HR,24sata,substitution
+vecernji.hr.com,vecernji.hr,HR,Večernji list,wrong-tld
+vecernji.online,vecernji.hr,HR,Večernji list,wrong-tld
+vecernjii.hr,vecernji.hr,HR,Večernji list,repetition
+dnevnik.hr.com,dnevnik.hr,HR,Dnevnik,wrong-tld
+dnevnik.online,dnevnik.hr,HR,Dnevnik,wrong-tld
+dnevnk.hr,dnevnik.hr,HR,Dnevnik,substitution
+poslovni.hr.com,poslovni.hr,HR,Poslovni dnevnik,wrong-tld
+n1.hr.com,n1.hr,HR,N1 Hrvatska,wrong-tld
+njuskalo.hr.com,njuskalo.hr,HR,Njuskalo,wrong-tld
+njuskalo-login.hr,njuskalo.hr,HR,Njuskalo,added-word
+ekupi.hr.com,ekupi.hr,HR,eKupi,wrong-tld
+lutrija.hr.com,lutrija.hr,HR,Hrvatska lutrija,wrong-tld
+iddeea.online,iddeea.gov.ba,BA,IDDEEA BiH,wrong-tld
+iddeea-security.ba,iddeea.gov.ba,BA,IDDEEA BiH,added-word
+iddeea-login.ba,iddeea.gov.ba,BA,IDDEEA BiH,added-word
+iddeea.ba.com,iddeea.gov.ba,BA,IDDEEA BiH,wrong-tld
+mup-gov.ba,mup.gov.ba,BA,MUP BiH,omitted-dot
+mup-login.ba,mup.gov.ba,BA,MUP BiH,added-word
+mup.ba.com,mup.gov.ba,BA,MUP BiH,wrong-tld
+mupp.gov.ba,mup.gov.ba,BA,MUP BiH,repetition
+epolicija.ba,mup.gov.ba,BA,e-Policija BiH,added-word
+cbbh.ba.com,cbbh.ba,BA,Centralna banka BiH,wrong-tld
+posta.ba.com,posta.ba,BA,BH Pošta,wrong-tld
+posta-login.ba,posta.ba,RA,BH Pošta,added-word
+postesrpske.com.online,postesrpske.com,BA,Pošte Srpske,wrong-tld
+postesrpske-login.com,postesrpske.com,BA,Pošte Srpske,added-word
+unicreditbank.ba.com,unicreditbank.ba,BA,UniCredit Bank BiH,wrong-tld
+unicredit-login.ba,unicreditbank.ba,BA,UniCredit Bank BiH,added-word
+unicredit-bank.ba,unicreditbank.ba,BA,UniCredit Bank BiH,omitted-dot
+raiffeisenbank.ba.com,raiffeisenbank.ba,BA,Raiffeisen Bank BiH,wrong-tld
+raiffeisen-login.ba,raiffeisenbank.ba,BA,Raiffeisen Bank BiH,added-word
+raiffesen.ba,raiffeisenbank.ba,BA,Raiffeisen Bank BiH,substitution
+addiko.ba.com,addiko.ba,BA,Addiko Bank BiH,wrong-tld
+addiko.online,addiko.ba,BA,Addiko Bank BiH,wrong-tld
+addiko-login.ba,addiko.ba,BA,Addiko Bank BiH,added-word
+sparkasse.ba.com,sparkasse.ba,BA,Sparkasse BiH,wrong-tld
+sparkasse-login.ba,sparkasse.ba,BA,Sparkasse BiH,added-word
+nlb.ba.com,nlb.ba,BA,NLB Banka BiH,wrong-tld
+nlb-login.ba,nlb.ba,BA,NLB Banka BiH,added-word
+asabanka.ba.com,asabanka.ba,BA,ASA Banka,wrong-tld
+asabanka-login.ba,asabanka.ba,BA,ASA Banka,added-word
+bhtelecom.ba.com,bhtelecom.ba,BA,BH Telecom,wrong-tld
+bhtelecom.online,bhtelecom.ba,BA,BH Telecom,wrong-tld
+bhtelecom-login.ba,bhtelecom.ba,BA,BH Telecom,added-word
+eronet.ba.com,eronet.ba,BA,HT Eronet,wrong-tld
+eronet-login.ba,eronet.ba,BA,HT Eronet,added-word
+mtel.ba.com,mtel.ba,BA,m:tel BiH,wrong-tld
+mtel.online,mtel.ba,BA,m:tel BiH,wrong-tld
+mtel-login.ba,mtel.ba,BA,m:tel BiH,added-word
+haloo.ba.com,haloo.ba,BA,haloo,wrong-tld
+telemach.ba.com,telemach.ba,BA,Telemach BiH,wrong-tld
+telemach-login.ba,telemach.ba,BA,Telemach BiH,added-word
+logosoft.ba.com,logosoft.ba,BA,Logosoft,wrong-tld
+blicnet.ba.com,blic.net,BA,blic.net,wrong-tld
+euroexpress.ba.com,euroexpress.ba,BA,Euroexpress,wrong-tld
+overseas.ba.com,overseas.ba,BA,Overseas Express BiH,wrong-tld
+bingo.ba.com,bingo.ba,BA,Bingo,wrong-tld
+bingo.online,bingo.ba,BA,Bingo,wrong-tld
+konzum.ba.com,konzum.ba,BA,Konzum BiH,wrong-tld
+interex.ba.com,interex.ba,BA,Interex,wrong-tld
+robot.ba.com,robot.ba,BA,Robot,wrong-tld
+mercator.ba.com,mercator.ba,BA,Mercator BiH,wrong-tld
+hifa.ba.com,hifa.ba,BA,Hifa,wrong-tld
+nis.ba.com,nis.ba,BA,NIS Petrol BiH,wrong-tld
+petrol.ba.com,petrol.ba,BA,Petrol BiH,wrong-tld
+omv.ba.com,omv.ba,BA,OMV BiH,wrong-tld
+avaz.ba.com,avaz.ba,BA,Avaz,wrong-tld
+avaz.online,avaz.ba,BA,Avaz,wrong-tld
+avaz-info.ba,avaz.ba,BA,Avaz,added-word
+avazz.ba,avaz.ba,BA,Avaz,repetition
+klix.ba.com,klix.ba,BA,Klix,wrong-tld
+klix.online,klix.ba,BA,Klix,wrong-tld
+klix-info.ba,klix.ba,BA,Klix,added-word
+klixx.ba,klix.ba,BA,Klix,repetition
+faktor.ba.com,faktor.ba,BA,Faktor,wrong-tld
+faktor.online,faktor.ba,BA,Faktor,wrong-tld
+depo.ba.com,depo.ba,BA,Depo,wrong-tld
+depo.online,depo.ba,BA,Depo,wrong-tld
+nezavisne.com.online,nezavisne.com,BA,Nezavisne novine,wrong-tld
+srpskainfo.com.online,srpskainfo.com,BA,Srpskainfo,wrong-tld
+olx.ba.com,olx.ba,BA,OLX BiH,wrong-tld
+olx.online,olx.ba,BA,OLX BiH,wrong-tld
+olx-login.ba,olx.ba,BA,OLX BiH,added-word
+pik.ba.com,pik.ba,BA,Pik,wrong-tld
+euprava-gov.ba,euprava.gov.ba,BA,eUprava BiH,omitted-dot
+euprava-login.ba,euprava.gov.ba,BA,eUprava BiH,added-word
+pibh.gov.online,pibh.gov.ba,BA,Porezna uprava FBIH,wrong-tld
+pibh-login.ba,pibh.gov.ba,BA,Porezna uprava FBIH,added-word
+postacg.online,postacg.me,ME,Pošta Crne Gore,wrong-tld
+postacg-login.me,postacg.me,ME,Pošta Crne Gore,added-word
+postacg-tracking.me,postacg.me,ME,Pošta Crne Gore,added-word
+posta-cg.me,postacg.me,ME,Pošta Crne Gore,omitted-dot
+postacg.me.com,postacg.me,ME,Pošta Crne Gore,wrong-tld
+cgposta.me,postacg.me,ME,Pošta Crne Gore,substitution
+mup-gov.me,gov.me,ME,MUP Crne Gore,omitted-dot
+poreska-uprava.online,poreska-uprava.me,ME,Poreska uprava Crna Gora,wrong-tld
+poreska-uprava-login.me,poreska-uprava.me,ME,Poreska uprava Crna Gora,added-word
+euprava-gov.me,euprava.gov.me,ME,eUprava Crna Gora,omitted-dot
+euprava-login.me,euprava.gov.me,ME,eUprava Crna Gora,added-word
+cbcg.me.com,cbcg.me,ME,Centralna banka Crne Gore,wrong-tld
+zpcg.me.com,zpcg.me,ME,ŽPCG,wrong-tld
+monteput.me.com,monteput.me,ME,Monteput,wrong-tld
+prvabanka.me.com,prvabanka.me,ME,Prva banka Crne Gore,wrong-tld
+prvabanka.online,prvabanka.me,ME,Prva banka Crne Gore,wrong-tld
+prvabanka-login.me,prvabanka.me,ME,Prva banka Crne Gore,added-word
+prva-banka.me,prvabanka.me,ME,Prva banka Crne Gore,omitted-dot
+ckb.me.com,ckb.me,ME,CKB,wrong-tld
+ckb.online,ckb.me,ME,CKB,wrong-tld
+ckb-login.me,ckb.me,ME,CKB,added-word
+ckb-banka.me,ckb.me,ME,CKB,omitted-dot
+erstebank.me.com,erstebank.me,ME,Erste Bank Crna Gora,wrong-tld
+erste.online,erstebank.me,ME,Erste Bank Crna Gora,wrong-tld
+erste-login.me,erstebank.me,ME,Erste Bank Crna Gora,added-word
+hipotekarnabanka.me.com,hipotekarnabanka.me,ME,Hipotekarna banka,wrong-tld
+hipotekarna-login.me,hipotekarnabanka.me,ME,Hipotekarna banka,added-word
+nlb.me.com,nlb.me,ME,NLB Banka Crna Gora,wrong-tld
+addiko.me.com,addiko.me,ME,Addiko Bank Crna Gora,wrong-tld
+t-mobile.me.com,t-mobile.me,ME,Crnogorski Telekom,wrong-tld
+t-mobile-login.me,t-mobile.me,ME,Crnogorski Telekom,added-word
+mtel.me.com,mtel.me,ME,Mtel Crna Gora,wrong-tld
+mtel.online,mtel.me,ME,Mtel Crna Gora,wrong-tld
+mtel-login.me,mtel.me,ME,Mtel Crna Gora,added-word
+one.me.com,one.me,ME,One Crna Gora,wrong-tld
+one-login.me,one.me,ME,One Crna Gora,added-word
+ipmont.me.com,ipmont.me,ME,IPMont,wrong-tld
+dexpress.me.com,dexpress.me,ME,DExpress Crna Gora,wrong-tld
+postexpress.me.com,postexpress.me,ME,Post Express Crna Gora,wrong-tld
+expressone.me.com,expressone.me,ME,Express One,wrong-tld
+voli.me.com,voli.me,ME,Voli,wrong-tld
+voli.online,voli.me,ME,Voli,wrong-tld
+voli-login.me,voli.me,ME,Voli,added-word
+aroma.me.com,aroma.me,ME,Aroma,wrong-tld
+idea.me.com,idea.me,ME,Idea Crna Gora,wrong-tld
+maxi.me.com,maxi.me,ME,Maxi Crna Gora,wrong-tld
+hram.me.com,hram.me,ME,Hram,wrong-tld
+kik.me.com,kik.me,ME,Kik,wrong-tld
+technomax.me.com,technomax.me,ME,Technomax,wrong-tld
+nis.me.com,nis.me,ME,NIS Petrol Crna Gora,wrong-tld
+petrol.me.com,petrol.me,ME,Petrol Crna Gora,wrong-tld
+omv.me.com,omv.me,ME,OMV Crna Gora,wrong-tld
+lukoil.me.com,lukoil.me,ME,Lukoil Crna Gora,wrong-tld
+gomex.me.com,gomex.me,ME,Gomex,wrong-tld
+rtcg.me.com,rtcg.me,ME,RTCG,wrong-tld
+rtcg.online,rtcg.me,ME,RTCG,wrong-tld
+rtcg-info.me,rtcg.me,ME,RTCG,added-word
+rtcgg.me,rtcg.me,ME,RTCG,repetition
+vijesti.me.com,vijesti.me,ME,Vijesti,wrong-tld
+vijesti.online,vijesti.me,ME,Vijesti,wrong-tld
+vijesti-info.me,vijesti.me,ME,Vijesti,added-word
+vjesti.me,vijesti.me,ME,Vijesti,substitution
+pobjeda.me.com,pobjeda.me,ME,Pobjeda,wrong-tld
+pobjeda.online,pobjeda.me,ME,Pobjeda,wrong-tld
+pobeda.me,pobjeda.me,ME,Pobjeda,substitution
+dan.co.me.online,dan.co.me,ME,Dan,wrong-tld
+antenam.net.online,antenam.net,ME,Antena M,wrong-tld
+cdm.me.com,cdm.me,ME,CdM,wrong-tld
+monstat.org.online,monstat.org,ME,MONSTAT,wrong-tld
+cedem.me.com,cedem.me,ME,CEDEM,wrong-tld
