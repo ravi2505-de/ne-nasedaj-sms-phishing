@@ -80,7 +80,7 @@ Open an issue or pull request on this repository.
 
 **Jnana Durga Ravi Chand Mutthina** — decided the best-fit model, fine-tuned the BERTić phishing model, supported debugging, and managed the Hugging Face Space and Git repository.
 
-**Otanwe** — worked on the rest of the application and project implementation.
+**Otanwe** — designed and implemented the Gradio UI, trained the TF-IDF baseline model, created and prepared the SMS datasets used for TF-IDF training and BERTić fine-tuning, built the rule-based/domain detection features, and integrated the full application workflow.
 
 Built during the Build Small Hackathon, June 2026.
 
@@ -145,7 +145,7 @@ Dobrodošli su novi označeni SMS primeri, granični slučajevi (bez URL-a, IBAN
 
 **Jnana Durga Ravi Chand Mutthina** — odabrao najbolji model, fine-tunovao BERTić phishing model, pomagao u debugovanju i vodio Hugging Face Space i Git repozitorijum.
 
-**Otanwe** — radio na ostatku aplikacije i implementacije projekta.
+**Otanwe** — dizajnirao i implementirao Gradio UI, trenirao TF-IDF baseline model, kreirao i pripremio SMS datasete korišćene za TF-IDF trening i BERTić fine-tuning, izgradio rule-based/domain detekciju i integrisao kompletan tok aplikacije.
 
 Napravljeno tokom Build Small Hackathona, juni 2026.
 
