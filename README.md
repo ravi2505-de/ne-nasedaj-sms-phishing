@@ -56,7 +56,7 @@ Smishi uses an **ensemble** of two models plus rule-based heuristics:
 | Heuristics | Suspicious/typosquatted domain detection, message-length analysis, threat-vector flags |
 | Training data | 400+ labeled SBCM SMS messages (phishing + legitimate), Cyrillic & Latin |
 | Languages | Serbian (Cyrillic & Latin), Bosnian, Croatian, Montenegrin |
-| Infrastructure | Model A + heuristics run on CPU; Model B uses GPU if available, falls back to CPU |
+| Infrastructure | Model A + heuristics run on CPU; Model B runs on CPU for Hugging Face Spaces deployment |
 | Interface | Bilingual (EN/SR) Gradio app, single-message and batch (CSV) modes |
 
 Both model predictions and confidence scores are shown side by side, along with flagged red-flag indicators (suspicious domains, typosquatting, urgency language, etc.).
@@ -78,7 +78,10 @@ Open an issue or pull request on this repository.
 
 ## Built by
 
-Utaem & Monkeydluffy
+**Jnana Durga Ravi Chand Mutthina** — decided the best-fit model, fine-tuned the BERTić phishing model, supported debugging, and managed the Hugging Face Space and Git repository.
+
+**Otanwe** — worked on the rest of the application and project implementation.
+
 Built during the Build Small Hackathon, June 2026.
 
 ## References
@@ -126,7 +129,7 @@ Smishi koristi **ensemble** dva modela plus heuristike zasnovane na pravilima:
 | Heuristike | Detekcija sumnjivih/typosquat domena, analiza dužine poruke, threat-vector indikatori |
 | Podaci | 400+ označenih SBCM SMS poruka (phishing + legitimne), ćirilica i latinica |
 | Jezici | Srpski (ćirilica i latinica), bosanski, hrvatski, crnogorski |
-| Infrastruktura | Model A + heuristike na CPU-u; Model B koristi GPU ako je dostupan, inače CPU |
+| Infrastruktura | Model A + heuristike rade na CPU-u; Model B radi na CPU-u za Hugging Face Spaces deployment |
 | Interfejs | Dvojezični (EN/SR) Gradio app, pojedinačni i batch (CSV) režim |
 
 ## Poznata ograničenja
@@ -140,6 +143,9 @@ Dobrodošli su novi označeni SMS primeri, granični slučajevi (bez URL-a, IBAN
 
 ## Napravili
 
-Utaem & Monkeydluffy
+**Jnana Durga Ravi Chand Mutthina** — odabrao najbolji model, fine-tunovao BERTić phishing model, pomagao u debugovanju i vodio Hugging Face Space i Git repozitorijum.
+
+**Otanwe** — radio na ostatku aplikacije i implementacije projekta.
+
 Napravljeno tokom Build Small Hackathona, juni 2026.
 

@@ -761,6 +761,18 @@ def get_example(lang, example_key):
 # =========================
 css = """
 footer { display: none !important; }
+:root, body, .gradio-container {
+    color-scheme: light !important;
+    --body-background-fill: #f0f4f8 !important;
+    --background-fill-primary: #ffffff !important;
+    --background-fill-secondary: #f1f5f9 !important;
+    --block-background-fill: #ffffff !important;
+    --block-border-color: #e2e8f0 !important;
+    --body-text-color: #1e293b !important;
+    --body-text-color-subdued: #475569 !important;
+    --input-background-fill: #ffffff !important;
+    --input-border-color: #cbd5e1 !important;
+}
 body, .gradio-container { background: #f0f4f8 !important; font-family: 'Segoe UI', Arial, sans-serif; }
 h1, h2, h3, .gr-markdown h1 { color: #1e3a5f !important; text-align: center !important; margin: 0 0 6px 0 !important; }
 .gr-markdown h1, .gr-markdown h1:first-child {
@@ -803,6 +815,14 @@ h1, h2, h3, .gr-markdown h1 { color: #1e3a5f !important; text-align: center !imp
 .gradio-container .form textarea, .gradio-container .form .prose, .gradio-container .form .output-wrap {
     background: #ffffff !important; border: 1.5px solid #cbd5e1 !important; border-radius: 12px !important;
     color: #1e293b !important; font-size: 13px !important; padding: 12px !important;
+}
+.gradio-container input,
+.gradio-container textarea,
+.gradio-container select,
+.gradio-container label,
+.gradio-container .wrap,
+.gradio-container .block {
+    color-scheme: light !important;
 }
 #left-panel .checkbox-container,
 #left-panel .form .checkbox-container {
