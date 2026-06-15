@@ -54,7 +54,7 @@ Smishi uses an **ensemble** of two models plus rule-based heuristics:
 | Model A | TF-IDF (character n-grams, 3–5) + Logistic Regression |
 | Model B | Fine-tuned BERTić transformer (`ravi2505/ne-nasedaj-sms-phishing`) |
 | Heuristics | Suspicious/typosquatted domain detection, message-length analysis, threat-vector flags |
-| Training data | 400+ labeled SBCM SMS messages (phishing + legitimate), Cyrillic & Latin |
+| Training data | 1,529 labeled SBCM SMS messages (phishing + legitimate), Cyrillic & Latin |
 | Languages | Serbian (Cyrillic & Latin), Bosnian, Croatian, Montenegrin |
 | Infrastructure | Model A + heuristics run on CPU; Model B runs on CPU for Hugging Face Spaces deployment |
 | Interface | Bilingual (EN/SR) Gradio app, single-message and batch (CSV) modes |
@@ -64,7 +64,7 @@ Both model predictions and confidence scores are shown side by side, along with 
 ## Known limitations
 
 - **No-URL phishing**: The system currently underperforms on scams that rely on IBAN manipulation, voice phishing (vishing) scripts, or social pressure without links. This is a known gap and active area of improvement.
-- **Dataset size**: ~400 rows is a solid starting point but benefits from more diverse examples, especially Bosnian and Montenegrin regional variants.
+- **Dataset size**: ~1,500 rows is a solid foundation but benefits from more diverse examples, especially Bosnian and Montenegrin regional variants.
 - **Novel attack patterns**: AI-generated smishing may use phrasing outside the training distribution. Contributions welcome.
 
 ## Contributing
@@ -80,7 +80,7 @@ Open an issue or pull request on this repository.
 
 **Jnana Durga Ravi Chand Mutthina** — decided the best-fit model, fine-tuned the BERTić phishing model, supported debugging, and managed the Hugging Face Space and Git repository.
 
-**Otanwe** — designed and implemented the Gradio UI, trained the TF-IDF baseline model, created and prepared the SMS datasets used for TF-IDF training and BERTić fine-tuning, built the rule-based/domain detection features, and integrated the full application workflow.
+**metalalchemistspex** — designed and implemented the Gradio UI, trained the TF-IDF baseline model, created and prepared the SMS datasets used for TF-IDF training and BERTić fine-tuning, built the rule-based/domain detection features, and integrated the full application workflow.
 
 Built during the Build Small Hackathon, June 2026.
 
@@ -103,9 +103,9 @@ Built during the Build Small Hackathon, June 2026.
 
 Smishi je open-source detektor SMS phishinga (smishinga) napravljen specijalno za južnoslovenske jezike — srpski, bosanski, hrvatski i crnogorski.
 
-Zalepi SMS poruku. Model ti kaže da li izgleda kao prevara, na srpskom ili engleskom (toggle u interfejsu).
+Zalepi/Paste SMS poruku. Model ti kaže da li izgleda kao prevara, na srpskom ili engleskom (toggle u interfejsu).
 
-Bez aplikacije. Bez prijave. Bez čuvanja podataka. Samo zalepi i provjeri.
+Bez aplikacije. Bez prijave. Bez čuvanja podataka. Samo zalepi i proveri.
 
 ## Zašto postoji?
 
@@ -127,7 +127,7 @@ Smishi koristi **ensemble** dva modela plus heuristike zasnovane na pravilima:
 | Model A | TF-IDF (karakterski n-grami, 3–5) + Logistička regresija |
 | Model B | Fine-tuned BERTić transformer (`ravi2505/ne-nasedaj-sms-phishing`) |
 | Heuristike | Detekcija sumnjivih/typosquat domena, analiza dužine poruke, threat-vector indikatori |
-| Podaci | 400+ označenih SBCM SMS poruka (phishing + legitimne), ćirilica i latinica |
+| Podaci | 1.529 označenih SBCM SMS poruka (phishing + legitimne), ćirilica i latinica |
 | Jezici | Srpski (ćirilica i latinica), bosanski, hrvatski, crnogorski |
 | Infrastruktura | Model A + heuristike rade na CPU-u; Model B radi na CPU-u za Hugging Face Spaces deployment |
 | Interfejs | Dvojezični (EN/SR) Gradio app, pojedinačni i batch (CSV) režim |
@@ -135,7 +135,7 @@ Smishi koristi **ensemble** dva modela plus heuristike zasnovane na pravilima:
 ## Poznata ograničenja
 
 - **Phishing bez URL-a**: Sistem trenutno slabije prepoznaje prevare koje se oslanjaju na IBAN manipulaciju, vishing skripte ili socijalni pritisak bez linkova.
-- **Veličina dataseta**: ~400 redova je dobra osnova, ali model profitira od više primera, posebno iz bosanskih i crnogorskih regionalnih varijanti.
+- **Veličina dataseta**: ~1.500 redova je solidna osnova, ali model profitira od više primera, posebno iz bosanskih i crnogorskih regionalnih varijanti.
 
 ## Doprinos
 
@@ -145,7 +145,7 @@ Dobrodošli su novi označeni SMS primeri, granični slučajevi (bez URL-a, IBAN
 
 **Jnana Durga Ravi Chand Mutthina** — odabrao najbolji model, fine-tunovao BERTić phishing model, pomagao u debugovanju i vodio Hugging Face Space i Git repozitorijum.
 
-**Otanwe** — dizajnirao i implementirao Gradio UI, trenirao TF-IDF baseline model, kreirao i pripremio SMS datasete korišćene za TF-IDF trening i BERTić fine-tuning, izgradio rule-based/domain detekciju i integrisao kompletan tok aplikacije.
+**metalalchemistspex** — dizajnirao i implementirao Gradio UI, trenirao TF-IDF baseline model, kreirao i pripremio SMS datasete korišćene za TF-IDF trening i BERTić fine-tuning, izgradio rule-based/domain detekciju i integrisao kompletan tok aplikacije.
 
 Napravljeno tokom Build Small Hackathona, juni 2026.
 
